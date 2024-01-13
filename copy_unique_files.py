@@ -16,5 +16,11 @@ def copy_unique_files(source_folder, destination_folder):
         destination_path = os.path.join(destination_folder, file_name)
         shutil.copy2(source_path, destination_path)
         print(f"Copied: {file_name}")
-        
+
+if __name__ == "__main__"
+    source_folder = "/path/to/folder/source"
+    destination_folder = "/path/to/folder/destination"
+
+    copy_unique_files(source_folder, destination_folder)
+
 
